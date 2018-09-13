@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="MagentoCRM Test" verbose="1" >
+  <test name="Regression suite 1" >
+    <classes>
+    	
+      	<class name="com.magento.qa.testcases.MobilePageTest">
+      		<!-- methods>
+      		<include name="validateSortByNameTest" />
+      		</methods>
+      	 -->
+      	</class>
+      	<class name="com.magento.qa.testcases.MobileDetailPageTest"/>
+      	
+    </classes>
+ </test>
+</suite>
