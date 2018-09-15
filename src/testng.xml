@@ -2,7 +2,7 @@
 <suite name="MagentoCRM Test" verbose="1" >
   <test name="Regression suite 1" >
     <classes>
-    	
+    	<class name="com.magento.qa.testcases.HomePageTest"/>
       	<class name="com.magento.qa.testcases.MobilePageTest">
       		<!-- methods>
       		<include name="validateSortByNameTest" />

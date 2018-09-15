@@ -40,7 +40,7 @@ public class TestBase {
 		//System.out.println(browserName.equals("firefox"));
 		if(browserName.equals("firefox"))
 		{
-			System.setProperty("webdriver.gecko.driver", "D:\\SeleniumWorkspace\\Test\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", "D:\\SeleniumWorkspace\\MagentoCRM\\geckodriver.exe");
 			driver = new FirefoxDriver();
 		}
 		

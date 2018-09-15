@@ -36,7 +36,7 @@ public class MobileDetailPage extends TestBase{
 	}
 	
 	
-	
+
 	
 	
 }
