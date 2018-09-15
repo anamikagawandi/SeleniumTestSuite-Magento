@@ -15,6 +15,8 @@ public class MobilePage extends TestBase{
 	@FindBy(xpath="//a[text()='Mobile']")
 	WebElement mobileMenu;
 	
+	
+	
 	String sonypath = ".product-image[title='Xperia'] + div";
 	//@FindBy(css=".category-products > .toolbar > .sorter > .sort-by > a")			//.sort-by > select")  span[class='price']
 	Select sortby;
@@ -48,7 +50,13 @@ public class MobilePage extends TestBase{
 	{
 		//System.out.println("Inside get item price"+driver.findElement(By.cssSelector(sonypath+" span[class='price']")).getText());
 		return driver.findElement(By.cssSelector(sonypath+" span[class='price']")).getText();
-}
+	}
+	
+	public ShoppingCartPage clickAddToCart()
+	{
+		driver.findElement(By.cssSelector(sonypath+"[class='product-info'] > div[class='actions'] > button")).click();
+		return new ShoppingCartPage();
+	}
 	
 	
 	public ArrayList<String> validateSortByName()

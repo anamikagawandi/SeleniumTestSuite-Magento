@@ -29,7 +29,7 @@ public class HomePageTest extends TestBase {
 	}
 
 	@Test(priority=1)
-	public void loginPageTitleTest()
+	public void homePageTitleTest()
 	{
 		String title=homepage.validateHomePageTitle();
 		System.out.println(title);

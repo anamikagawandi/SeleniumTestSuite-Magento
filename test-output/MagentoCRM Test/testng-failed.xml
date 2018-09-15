@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [MagentoCRM Test]">
+<suite name="Failed suite [MagentoCRM Test]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Regression suite 1(failed)">
     <classes>
-      <class name="com.magento.qa.testcases.MobileDetailPageTest">
+      <class name="com.magento.qa.testcases.HomePageTest">
         <methods>
-          <include name="validateItemPriceTest"/>
           <include name="tearDown"/>
+          <include name="goToMobilePageTest"/>
           <include name="setup"/>
+          <include name="loginPageTitleTest"/>
         </methods>
-      </class> <!-- com.magento.qa.testcases.MobileDetailPageTest -->
+      </class> <!-- com.magento.qa.testcases.HomePageTest -->
     </classes>
   </test> <!-- Regression suite 1(failed) -->
 </suite> <!-- Failed suite [MagentoCRM Test] -->

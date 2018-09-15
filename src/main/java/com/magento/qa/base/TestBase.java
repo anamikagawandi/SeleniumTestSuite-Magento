@@ -21,7 +21,7 @@ public class TestBase {
 	{
 		try {
 			prop = new Properties();
-			FileInputStream ip = new FileInputStream("D:\\SeleniumWorkspace\\MagentoCRM\\src\\main\\java\\com\\magento\\qa\\config\\config.properties");
+			FileInputStream ip = new FileInputStream("D:\\Selenium\\MagentoRepo\\src\\main\\java\\com\\magento\\qa\\config\\config.properties");//"D:\\SeleniumWorkspace\\MagentoCRM\\src\\main\\java\\com\\magento\\qa\\config\\config.properties");
 			prop.load(ip);
 			
 		}catch(FileNotFoundException e)
@@ -40,7 +40,7 @@ public class TestBase {
 		//System.out.println(browserName.equals("firefox"));
 		if(browserName.equals("firefox"))
 		{
-			System.setProperty("webdriver.gecko.driver", "D:\\SeleniumWorkspace\\MagentoCRM\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", "D:\\Selenium\\MagentoRepo\\geckodriver.exe");//"D:\\Selenium\\MagentoRepo\\geckodriver.exe");
 			driver = new FirefoxDriver();
 		}
 		
