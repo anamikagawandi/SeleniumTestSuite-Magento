@@ -2,96 +2,96 @@
 <testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-09-15T20:10:40Z" name="MagentoCRM Test" finished-at="2018-09-15T20:13:24Z" duration-ms="163757">
+  <suite started-at="2018-09-18T20:10:45Z" name="MagentoCRM Test" finished-at="2018-09-18T20:13:29Z" duration-ms="164488">
     <groups>
     </groups>
-    <test started-at="2018-09-15T20:10:40Z" name="Regression suite 1" finished-at="2018-09-15T20:13:24Z" duration-ms="163757">
+    <test started-at="2018-09-18T20:10:45Z" name="Regression suite 1" finished-at="2018-09-18T20:13:29Z" duration-ms="164488">
       <class name="com.magento.qa.testcases.MobileDetailPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.magento.qa.testcases.MobileDetailPageTest@5f16132a]" started-at="2018-09-15T20:11:43Z" name="setup" finished-at="2018-09-15T20:12:00Z" duration-ms="17224" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.magento.qa.testcases.MobileDetailPageTest@5f16132a]" started-at="2018-09-18T20:12:11Z" name="setup" finished-at="2018-09-18T20:12:28Z" duration-ms="16260" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateMobileDetailTest()[pri:1, instance:com.magento.qa.testcases.MobileDetailPageTest@5f16132a]" started-at="2018-09-15T20:12:00Z" name="validateMobileDetailTest" finished-at="2018-09-15T20:12:00Z" duration-ms="55" status="PASS">
+        <test-method signature="validateMobileDetailTest()[pri:1, instance:com.magento.qa.testcases.MobileDetailPageTest@5f16132a]" started-at="2018-09-18T20:12:28Z" name="validateMobileDetailTest" finished-at="2018-09-18T20:12:28Z" duration-ms="64" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateMobileDetailTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.magento.qa.testcases.MobileDetailPageTest@5f16132a]" started-at="2018-09-15T20:12:00Z" name="tearDown" finished-at="2018-09-15T20:12:01Z" duration-ms="233" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.magento.qa.testcases.MobileDetailPageTest@5f16132a]" started-at="2018-09-18T20:12:28Z" name="tearDown" finished-at="2018-09-18T20:12:28Z" duration-ms="214" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.magento.qa.testcases.MobileDetailPageTest@5f16132a]" started-at="2018-09-15T20:12:45Z" name="setup" finished-at="2018-09-15T20:13:03Z" duration-ms="18036" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.magento.qa.testcases.MobileDetailPageTest@5f16132a]" started-at="2018-09-18T20:12:56Z" name="setup" finished-at="2018-09-18T20:13:12Z" duration-ms="16313" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateItemPriceTest()[pri:2, instance:com.magento.qa.testcases.MobileDetailPageTest@5f16132a]" started-at="2018-09-15T20:13:03Z" name="validateItemPriceTest" finished-at="2018-09-15T20:13:03Z" duration-ms="48" status="PASS">
+        <test-method signature="validateItemPriceTest()[pri:2, instance:com.magento.qa.testcases.MobileDetailPageTest@5f16132a]" started-at="2018-09-18T20:13:12Z" name="validateItemPriceTest" finished-at="2018-09-18T20:13:12Z" duration-ms="68" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateItemPriceTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.magento.qa.testcases.MobileDetailPageTest@5f16132a]" started-at="2018-09-15T20:13:03Z" name="tearDown" finished-at="2018-09-15T20:13:03Z" duration-ms="335" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.magento.qa.testcases.MobileDetailPageTest@5f16132a]" started-at="2018-09-18T20:13:12Z" name="tearDown" finished-at="2018-09-18T20:13:12Z" duration-ms="221" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.magento.qa.testcases.MobileDetailPageTest -->
       <class name="com.magento.qa.testcases.MobilePageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.magento.qa.testcases.MobilePageTest@dd0c991]" started-at="2018-09-15T20:11:12Z" name="setup" finished-at="2018-09-15T20:11:43Z" duration-ms="30320" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.magento.qa.testcases.MobilePageTest@dd0c991]" started-at="2018-09-18T20:11:55Z" name="setup" finished-at="2018-09-18T20:12:11Z" duration-ms="15628" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="MobilePageTitleTest()[pri:1, instance:com.magento.qa.testcases.MobilePageTest@dd0c991]" started-at="2018-09-15T20:11:43Z" name="MobilePageTitleTest" finished-at="2018-09-15T20:11:43Z" duration-ms="37" status="PASS">
+        <test-method signature="MobilePageTitleTest()[pri:1, instance:com.magento.qa.testcases.MobilePageTest@dd0c991]" started-at="2018-09-18T20:12:11Z" name="MobilePageTitleTest" finished-at="2018-09-18T20:12:11Z" duration-ms="43" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MobilePageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.magento.qa.testcases.MobilePageTest@dd0c991]" started-at="2018-09-15T20:11:43Z" name="tearDown" finished-at="2018-09-15T20:11:43Z" duration-ms="206" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.magento.qa.testcases.MobilePageTest@dd0c991]" started-at="2018-09-18T20:12:11Z" name="tearDown" finished-at="2018-09-18T20:12:11Z" duration-ms="200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.magento.qa.testcases.MobilePageTest@dd0c991]" started-at="2018-09-15T20:12:22Z" name="setup" finished-at="2018-09-15T20:12:43Z" duration-ms="21281" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.magento.qa.testcases.MobilePageTest@dd0c991]" started-at="2018-09-18T20:12:41Z" name="setup" finished-at="2018-09-18T20:12:54Z" duration-ms="13131" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateSortByNameTest()[pri:2, instance:com.magento.qa.testcases.MobilePageTest@dd0c991]" started-at="2018-09-15T20:12:43Z" name="validateSortByNameTest" finished-at="2018-09-15T20:12:44Z" duration-ms="1322" status="PASS">
+        <test-method signature="validateSortByNameTest()[pri:2, instance:com.magento.qa.testcases.MobilePageTest@dd0c991]" started-at="2018-09-18T20:12:54Z" name="validateSortByNameTest" finished-at="2018-09-18T20:12:55Z" duration-ms="999" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSortByNameTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.magento.qa.testcases.MobilePageTest@dd0c991]" started-at="2018-09-15T20:12:44Z" name="tearDown" finished-at="2018-09-15T20:12:45Z" duration-ms="219" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.magento.qa.testcases.MobilePageTest@dd0c991]" started-at="2018-09-18T20:12:55Z" name="tearDown" finished-at="2018-09-18T20:12:56Z" duration-ms="334" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.magento.qa.testcases.MobilePageTest@dd0c991]" started-at="2018-09-15T20:13:03Z" name="setup" finished-at="2018-09-15T20:13:20Z" duration-ms="17198" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.magento.qa.testcases.MobilePageTest@dd0c991]" started-at="2018-09-18T20:13:12Z" name="setup" finished-at="2018-09-18T20:13:26Z" duration-ms="13282" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="goToMobileDetailSonyXperiaTest()[pri:3, instance:com.magento.qa.testcases.MobilePageTest@dd0c991]" started-at="2018-09-15T20:13:20Z" name="goToMobileDetailSonyXperiaTest" finished-at="2018-09-15T20:13:24Z" duration-ms="3431" status="PASS">
+        <test-method signature="goToMobileDetailSonyXperiaTest()[pri:3, instance:com.magento.qa.testcases.MobilePageTest@dd0c991]" started-at="2018-09-18T20:13:26Z" name="goToMobileDetailSonyXperiaTest" finished-at="2018-09-18T20:13:29Z" duration-ms="3460" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToMobileDetailSonyXperiaTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.magento.qa.testcases.MobilePageTest@dd0c991]" started-at="2018-09-15T20:13:24Z" name="tearDown" finished-at="2018-09-15T20:13:24Z" duration-ms="216" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.magento.qa.testcases.MobilePageTest@dd0c991]" started-at="2018-09-18T20:13:29Z" name="tearDown" finished-at="2018-09-18T20:13:29Z" duration-ms="253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.magento.qa.testcases.MobilePageTest -->
       <class name="com.magento.qa.testcases.HomePageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.magento.qa.testcases.HomePageTest@6bf0219d]" started-at="2018-09-15T20:10:40Z" name="setup" finished-at="2018-09-15T20:11:12Z" duration-ms="31704" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.magento.qa.testcases.HomePageTest@6bf0219d]" started-at="2018-09-18T20:10:45Z" name="setup" finished-at="2018-09-18T20:11:55Z" duration-ms="70163" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="homePageTitleTest()[pri:1, instance:com.magento.qa.testcases.HomePageTest@6bf0219d]" started-at="2018-09-15T20:11:12Z" name="homePageTitleTest" finished-at="2018-09-15T20:11:12Z" duration-ms="33" status="PASS">
+        <test-method signature="homePageTitleTest()[pri:1, instance:com.magento.qa.testcases.HomePageTest@6bf0219d]" started-at="2018-09-18T20:11:55Z" name="homePageTitleTest" finished-at="2018-09-18T20:11:55Z" duration-ms="54" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.magento.qa.testcases.HomePageTest@6bf0219d]" started-at="2018-09-15T20:11:12Z" name="tearDown" finished-at="2018-09-15T20:11:12Z" duration-ms="541" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.magento.qa.testcases.HomePageTest@6bf0219d]" started-at="2018-09-18T20:11:55Z" name="tearDown" finished-at="2018-09-18T20:11:55Z" duration-ms="237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.magento.qa.testcases.HomePageTest@6bf0219d]" started-at="2018-09-15T20:12:01Z" name="setup" finished-at="2018-09-15T20:12:19Z" duration-ms="18444" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.magento.qa.testcases.HomePageTest@6bf0219d]" started-at="2018-09-18T20:12:28Z" name="setup" finished-at="2018-09-18T20:12:39Z" duration-ms="11149" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="goToMobilePageTest()[pri:2, instance:com.magento.qa.testcases.HomePageTest@6bf0219d]" started-at="2018-09-15T20:12:19Z" name="goToMobilePageTest" finished-at="2018-09-15T20:12:22Z" duration-ms="2580" status="PASS">
+        <test-method signature="goToMobilePageTest()[pri:2, instance:com.magento.qa.testcases.HomePageTest@6bf0219d]" started-at="2018-09-18T20:12:39Z" name="goToMobilePageTest" finished-at="2018-09-18T20:12:41Z" duration-ms="2059" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToMobilePageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.magento.qa.testcases.HomePageTest@6bf0219d]" started-at="2018-09-15T20:12:22Z" name="tearDown" finished-at="2018-09-15T20:12:22Z" duration-ms="230" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.magento.qa.testcases.HomePageTest@6bf0219d]" started-at="2018-09-18T20:12:41Z" name="tearDown" finished-at="2018-09-18T20:12:41Z" duration-ms="231" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
