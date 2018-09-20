@@ -11,7 +11,7 @@ import com.magento.qa.pages.MobileDetailPage;
 import com.magento.qa.pages.MobilePage;
 import com.magento.qa.pages.ShoppingCartPage;
 
-public class ShoppingCartTest extends TestBase{
+public class ShoppingCartPageTest extends TestBase{
 	
 	HomePage homePage;
 	MobilePage mobilePage;
@@ -19,7 +19,7 @@ public class ShoppingCartTest extends TestBase{
 	ShoppingCartPage shoppingCartPage;
 	
 	
-	public ShoppingCartTest()
+	public ShoppingCartPageTest()
 	{
 		super();
 	}
@@ -42,10 +42,17 @@ public class ShoppingCartTest extends TestBase{
 	}
 
 	
+	
+	@Test(priority=2)
+	public void verifyEmptyCartBtn()
+	{
+		Assert.assertEquals(shoppingCartPage.verifyEmptyCartButton(),"SHOPPING CART IS EMPTY");
+	}
+	
 	@AfterMethod
 	public void tearDown()
 	{
-		//driver.quit();
-		driver.close();
+		//driver.close();
+		driver.quit();
 	}
 }

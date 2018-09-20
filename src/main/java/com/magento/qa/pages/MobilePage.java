@@ -9,6 +9,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 import com.magento.qa.base.TestBase;
+import com.magento.qa.util.TestUtil;
 
 public class MobilePage extends TestBase{
 	
@@ -18,6 +19,9 @@ public class MobilePage extends TestBase{
 	
 	
 	String sonypath = ".product-image[title='Xperia'] + div";
+	//String sonypathcompare = ".product-image[title='Xperia'] + div .link-compare";
+	String iphonepathcompare = ".product-image[title='IPhone'] + div .link-compare";
+	
 	//@FindBy(css=".category-products > .toolbar > .sorter > .sort-by > a")			//.sort-by > select")  span[class='price']
 	Select sortby;
 	
@@ -76,16 +80,26 @@ public class MobilePage extends TestBase{
 		//Iterator<WebElement> i=names.iterator();
 		list = new ArrayList<String>();							
 		
-		int	p = 0;					
+		//int	p = 0;					
 		//extract the link texts of each link element		
 		for (WebElement e : names) 
 		{
 			System.out.println("Inside loop"+e.getText());
 			list.add(e.getText());							
-			p++;			
+			//p++;			
 		}		
 		System.out.println(list.toString());
 		return list;
 	}
 		
+	
+	public ProductComparePage goToCompareProduct()
+	{
+		driver.findElement(By.cssSelector(sonypath+" .link-compare")).click();
+		driver.findElement(By.cssSelector(iphonepathcompare)).click();
+		driver.findElement(By.xpath("//button[@title='Compare']")).click();
+		TestUtil.switchToWindow(driver);
+		return new ProductComparePage();
+	}
+	
 }

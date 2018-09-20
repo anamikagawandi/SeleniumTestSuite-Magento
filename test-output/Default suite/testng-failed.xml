@@ -1,33 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.magento.qa.testcases.MobilePageTest">
+      <class name="com.magento.qa.testcases.ShoppingCartTest">
         <methods>
-          <include name="validateSortByNameTest"/>
-          <include name="MobilePageTitleTest"/>
+          <include name="verifyEmptyCartBtn"/>
           <include name="tearDown"/>
-          <include name="goToMobileDetailSonyXperiaTest"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.magento.qa.testcases.MobilePageTest -->
-      <class name="com.magento.qa.testcases.HomePageTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="goToMobilePageTest"/>
-          <include name="setup"/>
-          <include name="loginPageTitleTest"/>
-        </methods>
-      </class> <!-- com.magento.qa.testcases.HomePageTest -->
-      <class name="com.magento.qa.testcases.MobileDetailPageTest">
-        <methods>
-          <include name="validateItemPriceTest"/>
-          <include name="tearDown"/>
-          <include name="validateMobileDetailTest"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.magento.qa.testcases.MobileDetailPageTest -->
+      </class> <!-- com.magento.qa.testcases.ShoppingCartTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

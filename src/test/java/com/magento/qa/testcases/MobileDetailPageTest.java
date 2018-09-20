@@ -1,9 +1,6 @@
 package com.magento.qa.testcases;
 
-import static org.testng.Assert.assertEquals;
 
-import java.util.ArrayList;
-import java.util.Collections;
 
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -54,8 +51,8 @@ public class MobileDetailPageTest extends TestBase{
 	@AfterMethod
 	public void tearDown()
 	{
-		//driver.quit();
-		driver.close();
+		//driver.close();
+		driver.quit();
 	}
 	
 	

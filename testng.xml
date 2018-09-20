@@ -10,7 +10,8 @@
       	 -->
       	</class>
       	<class name="com.magento.qa.testcases.MobileDetailPageTest"/>
-      	<class name="com.magento.qa.testcases.ShoppingCartTest"/>
+      	<class name="com.magento.qa.testcases.ShoppingCartPageTest"/>
+      	<class name="com.magento.qa.testcases.ProductComparePageTest"/>
       	
     </classes>
  </test>
