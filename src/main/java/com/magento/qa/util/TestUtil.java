@@ -1,6 +1,8 @@
 package com.magento.qa.util;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.DataProvider;
 
 import com.magento.qa.base.TestBase;
 
@@ -21,14 +23,25 @@ public class TestUtil extends TestBase {
 		java.util.Set<String> handles = driver.getWindowHandles();
         System.out.println(handles);
 
-        for (String handle1 : driver.getWindowHandles()) {
-
+        for (String handle1 : driver.getWindowHandles()) 
+        {
                System.out.println(handle1);
-
                driver.switchTo().window(handle1);
-
         }
-
+	}
+	
+	public static boolean isLoginActive(WebElement element)
+	{
+		if(element.getText().contains("Default welcome msg!"))
+			return false;
+		else
+			return true;
+	}
+	
+	@DataProvider(name = "readNewRegisterationCreds")
+	public static Object[][] readNewRegisterationCreds()
+	{
+		return new Object[][]{};
 	}
 	
 }
