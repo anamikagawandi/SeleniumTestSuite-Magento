@@ -1,37 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29716" started-at="2018-09-20T08:04:00Z" finished-at="2018-09-20T08:04:29Z">
+  <suite name="Default suite" duration-ms="28280" started-at="2018-09-26T06:03:32Z" finished-at="2018-09-26T06:04:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29716" started-at="2018-09-20T08:04:00Z" finished-at="2018-09-20T08:04:29Z">
-      <class name="com.magento.qa.testcases.ProductComparePageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.magento.qa.testcases.ProductComparePageTest@1e88b3c]" name="setup" is-config="true" duration-ms="13735" started-at="2018-09-20T08:04:00Z" finished-at="2018-09-20T08:04:14Z">
+    <test name="Default test" duration-ms="28280" started-at="2018-09-26T06:03:32Z" finished-at="2018-09-26T06:04:00Z">
+      <class name="com.magento.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.magento.qa.testcases.LoginPageTest@1794d431]" name="setup" is-config="true" duration-ms="7911" started-at="2018-09-26T06:03:32Z" finished-at="2018-09-26T06:03:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyCloseBtnTest()[pri:0, instance:com.magento.qa.testcases.ProductComparePageTest@1e88b3c]" name="verifyCloseBtnTest" duration-ms="1340" started-at="2018-09-20T08:04:14Z" finished-at="2018-09-20T08:04:15Z">
+        <test-method status="PASS" signature="validateLoginPageTest()[pri:1, instance:com.magento.qa.testcases.LoginPageTest@1794d431]" name="validateLoginPageTest" duration-ms="39" started-at="2018-09-26T06:03:40Z" finished-at="2018-09-26T06:03:40Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyCloseBtnTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.magento.qa.testcases.ProductComparePageTest@1e88b3c]" name="tearDown" is-config="true" duration-ms="609" started-at="2018-09-20T08:04:15Z" finished-at="2018-09-20T08:04:15Z">
+        </test-method> <!-- validateLoginPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.magento.qa.testcases.LoginPageTest@1794d431]" name="tearDown" is-config="true" duration-ms="531" started-at="2018-09-26T06:03:40Z" finished-at="2018-09-26T06:03:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.magento.qa.testcases.ProductComparePageTest@1e88b3c]" name="setup" is-config="true" duration-ms="12228" started-at="2018-09-20T08:04:15Z" finished-at="2018-09-20T08:04:28Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.magento.qa.testcases.LoginPageTest@1794d431]" name="setup" is-config="true" duration-ms="7087" started-at="2018-09-26T06:03:41Z" finished-at="2018-09-26T06:03:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyCompareProductsTest()[pri:0, instance:com.magento.qa.testcases.ProductComparePageTest@1e88b3c]" name="verifyCompareProductsTest" duration-ms="1160" started-at="2018-09-20T08:04:28Z" finished-at="2018-09-20T08:04:29Z">
+        <test-method status="PASS" signature="validateLogin(java.lang.String, java.lang.String, boolean)[pri:2, instance:com.magento.qa.testcases.LoginPageTest@1794d431]" name="validateLogin" duration-ms="1211" started-at="2018-09-26T06:03:48Z" data-provider="readLoginCreds" finished-at="2018-09-26T06:03:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bhus@gm.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyCompareProductsTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.magento.qa.testcases.ProductComparePageTest@1e88b3c]" name="tearDown" is-config="true" duration-ms="629" started-at="2018-09-20T08:04:29Z" finished-at="2018-09-20T08:04:29Z">
+        </test-method> <!-- validateLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.magento.qa.testcases.LoginPageTest@1794d431]" name="tearDown" is-config="true" duration-ms="415" started-at="2018-09-26T06:03:49Z" finished-at="2018-09-26T06:03:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.magento.qa.testcases.ProductComparePageTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.magento.qa.testcases.LoginPageTest@1794d431]" name="setup" is-config="true" duration-ms="8912" started-at="2018-09-26T06:03:49Z" finished-at="2018-09-26T06:03:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateLogin(java.lang.String, java.lang.String, boolean)[pri:2, instance:com.magento.qa.testcases.LoginPageTest@1794d431]" name="validateLogin" duration-ms="1335" started-at="2018-09-26T06:03:58Z" data-provider="readLoginCreds" finished-at="2018-09-26T06:04:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vrfgfdbgbhg@gm.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bgdbhgbhg]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.magento.qa.testcases.LoginPageTest@1794d431]" name="tearDown" is-config="true" duration-ms="500" started-at="2018-09-26T06:04:00Z" finished-at="2018-09-26T06:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.magento.qa.testcases.LoginPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -38,10 +38,5 @@ public class TestUtil extends TestBase {
 			return true;
 	}
 	
-	@DataProvider(name = "readNewRegisterationCreds")
-	public static Object[][] readNewRegisterationCreds()
-	{
-		return new Object[][]{};
-	}
 	
 }

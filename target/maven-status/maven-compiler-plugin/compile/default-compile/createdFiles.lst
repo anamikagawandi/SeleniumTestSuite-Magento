@@ -1,7 +1,0 @@
-com\magento\qa\pages\MobileDetailPage.class
-com\magento\qa\base\TestBase.class
-com\magento\qa\util\TestUtil.class
-com\magento\qa\pages\HomePage.class
-com\magento\qa\pages\MobilePage.class
-com\magento\qa\pages\ShoppingCartPage.class
-MagentoCRM\MagentoCRM\App.class
