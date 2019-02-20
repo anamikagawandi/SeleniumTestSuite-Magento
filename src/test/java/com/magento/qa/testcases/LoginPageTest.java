@@ -4,14 +4,12 @@ import java.io.File;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
 import com.magento.qa.base.TestBase;
 import com.magento.qa.pages.DashboardPage;
 import com.magento.qa.pages.HomePage;
 import com.magento.qa.pages.LoginPage;
-import com.magento.qa.util.DataProviderUtil;
+
 
 public class LoginPageTest extends TestBase{
 	
@@ -27,11 +25,10 @@ public class LoginPageTest extends TestBase{
 	}
 	
 	
-	@DataProvider(name="readLoginCreds")
-	public Object[][] readLoginCreds() throws Exception
-	{
-		return DataProviderUtil.readLoginCreds(file);	
-	}
+	/*
+	 * @DataProvider(name="readLoginCreds") public Object[][] readLoginCreds()
+	 * throws Exception { return DataProviderUtil.readLoginCreds(file); }
+	 */
 
 	@BeforeMethod
 	public void setup()
@@ -48,7 +45,7 @@ public class LoginPageTest extends TestBase{
 	}
 	
 	
-	@Test(dataProvider="readLoginCreds" , priority=2)
+	//(dataProvider="readLoginCreds" , priority=2)
 	public void validateLogin(String user,String password,boolean flag)
 	{
 		System.out.println(user+"       "+ password);

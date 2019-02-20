@@ -1,83 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28280" started-at="2018-09-26T06:03:32Z" finished-at="2018-09-26T06:04:00Z">
+  <suite name="Default suite" duration-ms="21216" started-at="2019-02-20T13:52:02Z" finished-at="2019-02-20T13:52:23Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="28280" started-at="2018-09-26T06:03:32Z" finished-at="2018-09-26T06:04:00Z">
-      <class name="com.magento.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.magento.qa.testcases.LoginPageTest@1794d431]" name="setup" is-config="true" duration-ms="7911" started-at="2018-09-26T06:03:32Z" finished-at="2018-09-26T06:03:40Z">
+    <test name="Default test" duration-ms="21216" started-at="2019-02-20T13:52:02Z" finished-at="2019-02-20T13:52:23Z">
+      <class name="com.magento.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.magento.qa.testcases.HomePageTest@204f30ec]" name="beforeSuite" is-config="true" duration-ms="210" started-at="2019-02-20T13:52:02Z" finished-at="2019-02-20T13:52:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.magento.qa.testcases.HomePageTest@204f30ec]" name="setup" is-config="true" duration-ms="8390" started-at="2019-02-20T13:52:02Z" finished-at="2019-02-20T13:52:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateLoginPageTest()[pri:1, instance:com.magento.qa.testcases.LoginPageTest@1794d431]" name="validateLoginPageTest" duration-ms="39" started-at="2018-09-26T06:03:40Z" finished-at="2018-09-26T06:03:40Z">
+        <test-method status="PASS" signature="homePageTitleTest()[pri:1, instance:com.magento.qa.testcases.HomePageTest@204f30ec]" name="homePageTitleTest" duration-ms="20" started-at="2019-02-20T13:52:10Z" finished-at="2019-02-20T13:52:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateLoginPageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.magento.qa.testcases.LoginPageTest@1794d431]" name="tearDown" is-config="true" duration-ms="531" started-at="2018-09-26T06:03:40Z" finished-at="2018-09-26T06:03:40Z">
+        </test-method> <!-- homePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.magento.qa.testcases.HomePageTest@204f30ec]" name="tearDown" is-config="true" duration-ms="1355" started-at="2019-02-20T13:52:10Z" finished-at="2019-02-20T13:52:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.magento.qa.testcases.LoginPageTest@1794d431]" name="setup" is-config="true" duration-ms="7087" started-at="2018-09-26T06:03:41Z" finished-at="2018-09-26T06:03:48Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.magento.qa.testcases.HomePageTest@204f30ec]" name="setup" is-config="true" duration-ms="7967" started-at="2019-02-20T13:52:12Z" finished-at="2019-02-20T13:52:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateLogin(java.lang.String, java.lang.String, boolean)[pri:2, instance:com.magento.qa.testcases.LoginPageTest@1794d431]" name="validateLogin" duration-ms="1211" started-at="2018-09-26T06:03:48Z" data-provider="readLoginCreds" finished-at="2018-09-26T06:03:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[bhus@gm.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[pass@123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="goToMobilePageTest()[pri:2, instance:com.magento.qa.testcases.HomePageTest@204f30ec]" name="goToMobilePageTest" duration-ms="2001" started-at="2019-02-20T13:52:20Z" finished-at="2019-02-20T13:52:22Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.magento.qa.testcases.LoginPageTest@1794d431]" name="tearDown" is-config="true" duration-ms="415" started-at="2018-09-26T06:03:49Z" finished-at="2018-09-26T06:03:49Z">
+        </test-method> <!-- goToMobilePageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.magento.qa.testcases.HomePageTest@204f30ec]" name="tearDown" is-config="true" duration-ms="1463" started-at="2019-02-20T13:52:22Z" finished-at="2019-02-20T13:52:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.magento.qa.testcases.LoginPageTest@1794d431]" name="setup" is-config="true" duration-ms="8912" started-at="2018-09-26T06:03:49Z" finished-at="2018-09-26T06:03:58Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.magento.qa.testcases.HomePageTest@204f30ec]" name="afterSuite" is-config="true" duration-ms="313" started-at="2019-02-20T13:52:23Z" finished-at="2019-02-20T13:52:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateLogin(java.lang.String, java.lang.String, boolean)[pri:2, instance:com.magento.qa.testcases.LoginPageTest@1794d431]" name="validateLogin" duration-ms="1335" started-at="2018-09-26T06:03:58Z" data-provider="readLoginCreds" finished-at="2018-09-26T06:04:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[vrfgfdbgbhg@gm.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[bgdbhgbhg]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.magento.qa.testcases.LoginPageTest@1794d431]" name="tearDown" is-config="true" duration-ms="500" started-at="2018-09-26T06:04:00Z" finished-at="2018-09-26T06:04:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.magento.qa.testcases.LoginPageTest -->
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.magento.qa.testcases.HomePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

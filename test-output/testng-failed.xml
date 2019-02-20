@@ -3,13 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.magento.qa.testcases.ShoppingCartTest">
+      <class name="com.magento.qa.testcases.HomePageTest">
         <methods>
-          <include name="verifyEmptyCartBtn"/>
+          <include name="beforeSuite"/>
+          <include name="homePageTitleTest"/>
           <include name="tearDown"/>
           <include name="setup"/>
+          <include name="afterSuite"/>
         </methods>
-      </class> <!-- com.magento.qa.testcases.ShoppingCartTest -->
+      </class> <!-- com.magento.qa.testcases.HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

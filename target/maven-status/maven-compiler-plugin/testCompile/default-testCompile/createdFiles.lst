@@ -1,0 +1,8 @@
+com\magento\qa\testcases\CreateAccountPageTest.class
+MagentoCRM\MagentoCRM\AppTest.class
+com\magento\qa\testcases\LoginPageTest.class
+com\magento\qa\testcases\MobileDetailPageTest.class
+com\magento\qa\testcases\ProductComparePageTest.class
+com\magento\qa\testcases\ShoppingCartPageTest.class
+com\magento\qa\testcases\HomePageTest.class
+com\magento\qa\testcases\MobilePageTest.class
