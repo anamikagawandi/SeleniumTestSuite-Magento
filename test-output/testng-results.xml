@@ -2,40 +2,40 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20550" started-at="2019-02-21T13:34:48Z" finished-at="2019-02-21T13:35:09Z">
+  <suite name="Default suite" duration-ms="24306" started-at="2019-02-21T14:04:04Z" finished-at="2019-02-21T14:04:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20550" started-at="2019-02-21T13:34:48Z" finished-at="2019-02-21T13:35:09Z">
+    <test name="Default test" duration-ms="24306" started-at="2019-02-21T14:04:04Z" finished-at="2019-02-21T14:04:28Z">
       <class name="com.magento.qa.testcases.HomePageTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.magento.qa.testcases.HomePageTest@204f30ec]" name="beforeSuite" is-config="true" duration-ms="195" started-at="2019-02-21T13:34:48Z" finished-at="2019-02-21T13:34:48Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.magento.qa.testcases.HomePageTest@204f30ec]" name="beforeSuite" is-config="true" duration-ms="195" started-at="2019-02-21T14:04:04Z" finished-at="2019-02-21T14:04:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.magento.qa.testcases.HomePageTest@204f30ec]" name="setup" is-config="true" duration-ms="8408" started-at="2019-02-21T13:34:48Z" finished-at="2019-02-21T13:34:57Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.magento.qa.testcases.HomePageTest@204f30ec]" name="setup" is-config="true" duration-ms="10746" started-at="2019-02-21T14:04:04Z" finished-at="2019-02-21T14:04:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="homePageTitleTest()[pri:1, instance:com.magento.qa.testcases.HomePageTest@204f30ec]" name="homePageTitleTest" duration-ms="21" started-at="2019-02-21T13:34:57Z" finished-at="2019-02-21T13:34:57Z">
+        <test-method status="PASS" signature="homePageTitleTest()[pri:1, instance:com.magento.qa.testcases.HomePageTest@204f30ec]" name="homePageTitleTest" duration-ms="113" started-at="2019-02-21T14:04:14Z" finished-at="2019-02-21T14:04:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.magento.qa.testcases.HomePageTest@204f30ec]" name="tearDown" is-config="true" duration-ms="1341" started-at="2019-02-21T13:34:57Z" finished-at="2019-02-21T13:34:58Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.magento.qa.testcases.HomePageTest@204f30ec]" name="tearDown" is-config="true" duration-ms="1540" started-at="2019-02-21T14:04:15Z" finished-at="2019-02-21T14:04:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.magento.qa.testcases.HomePageTest@204f30ec]" name="setup" is-config="true" duration-ms="7426" started-at="2019-02-21T13:34:58Z" finished-at="2019-02-21T13:35:05Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.magento.qa.testcases.HomePageTest@204f30ec]" name="setup" is-config="true" duration-ms="7538" started-at="2019-02-21T14:04:16Z" finished-at="2019-02-21T14:04:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="goToMobilePageTest()[pri:2, instance:com.magento.qa.testcases.HomePageTest@204f30ec]" name="goToMobilePageTest" duration-ms="1688" started-at="2019-02-21T13:35:05Z" finished-at="2019-02-21T13:35:07Z">
+        <test-method status="PASS" signature="goToMobilePageTest()[pri:2, instance:com.magento.qa.testcases.HomePageTest@204f30ec]" name="goToMobilePageTest" duration-ms="2600" started-at="2019-02-21T14:04:24Z" finished-at="2019-02-21T14:04:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToMobilePageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.magento.qa.testcases.HomePageTest@204f30ec]" name="tearDown" is-config="true" duration-ms="1645" started-at="2019-02-21T13:35:07Z" finished-at="2019-02-21T13:35:09Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.magento.qa.testcases.HomePageTest@204f30ec]" name="tearDown" is-config="true" duration-ms="1746" started-at="2019-02-21T14:04:26Z" finished-at="2019-02-21T14:04:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.magento.qa.testcases.HomePageTest@204f30ec]" name="afterSuite" is-config="true" duration-ms="4864" started-at="2019-02-21T13:35:09Z" finished-at="2019-02-21T13:35:14Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.magento.qa.testcases.HomePageTest@204f30ec]" name="afterSuite" is-config="true" duration-ms="4569" started-at="2019-02-21T14:04:28Z" finished-at="2019-02-21T14:04:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->

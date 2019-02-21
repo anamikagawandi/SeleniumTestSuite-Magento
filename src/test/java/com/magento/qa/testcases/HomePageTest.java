@@ -15,6 +15,7 @@ import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.magento.qa.base.TestBase;
 import com.magento.qa.pages.*;
 import com.magento.qa.util.ReportUtil;
+import com.magento.qa.util.ScreenShotUtil;
 
 
 
@@ -51,8 +52,9 @@ public class HomePageTest extends TestBase {
 		catch(AssertionError e)
 		{
 			test.log(Status.FAIL, "Home Page title not validated"+"\n"+e.getMessage());
-			test.fail("Fail").addScreenCaptureFromPath("C:\\Users\\User.QASPL-32\\git\\MagentoRepo\\test-output\\Reports\\ss.png");
-			ReportUtil.captureScreenShot("homePageTitleTest", "Home Page title not validated"+"\n"+e.getMessage() );
+			test.fail("Fail");
+			ScreenShotUtil.captureScreenShot(this.driver,"homePageTitleTest");
+			//ReportUtil.captureScreenShot("homePageTitleTest", "Home Page title not validated"+"\n"+e.getMessage() );
 		}
 	}
 	
