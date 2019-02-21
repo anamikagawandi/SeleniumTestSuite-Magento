@@ -22,6 +22,7 @@ import com.aventstack.extentreports.reporter.ExtentAventReporter;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.ExtentKlovReporter;
 import com.aventstack.extentreports.reporter.ExtentLoggerReporter;
+import com.magento.qa.util.MailerUtil;
 import com.magento.qa.util.ReportUtil;
 import com.magento.qa.util.TestUtil;
 
@@ -32,7 +33,7 @@ public class TestBase {
 	public static Properties prop;
 	public static ExtentReports extent; 
 	public static ExtentLoggerReporter reporter;
-	public static ExtentTest test,t;
+	public static ExtentTest test,t,test2;
 	
 	public TestBase()
 	{
@@ -60,6 +61,8 @@ public class TestBase {
 	public void afterSuite()
 	{
 		ReportUtil.flushReport();
+		MailerUtil.mailReport();
+		
 	}
 	
 	public static void initialization()

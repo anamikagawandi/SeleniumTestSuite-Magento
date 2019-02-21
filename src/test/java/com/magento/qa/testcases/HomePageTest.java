@@ -60,20 +60,20 @@ public class HomePageTest extends TestBase {
 	@Test(priority=2)
 	public void goToMobilePageTest() throws IOException
 	{
-		test=t.createNode("goToMobilePageTest");
-		test.log(Status.INFO,"Navigating from Home Page to Mobile Page");
+		test2=t.createNode("goToMobilePageTest");
+		test2.log(Status.INFO,"Navigating from Home Page to Mobile Page");
 		mobilePage=homepage.goToMobilePage();
 		try {
 		//System.out.println(homepage.goToMobilePage());
 		Assert.assertEquals(mobilePage.validateMobilePage(),"MOBILE");
-		test.log(Status.INFO, "Successfully navigated to Mobile Page");
-		test.log(Status.PASS, "Mobile Page title validated");
+		test2.log(Status.INFO, "Successfully navigated to Mobile Page");
+		test2.log(Status.PASS, "Mobile Page title validated");
 
 		}
 		catch(AssertionError e)
 		{
-			test.log(Status.FAIL, "Mobile Page title not validated"+"\n"+e.getMessage());
-			test.fail("Mobile Page title not validated").addScreenCaptureFromPath("C:\\Users\\User.QASPL-32\\git\\MagentoRepo\\test-output\\Reports\\ss1.png");
+			test2.log(Status.FAIL, "Mobile Page title not validated"+"\n"+e.getMessage());
+			test2.fail("Mobile Page title not validated").addScreenCaptureFromPath("C:\\Users\\User.QASPL-32\\git\\MagentoRepo\\test-output\\Reports\\ss1.png");
 			ReportUtil.captureScreenShot("goToMobilePageTest", "Mobile Page title not validated"+"\n"+e.getMessage() );
 		}
 	}
